@@ -47,7 +47,7 @@ function App() {
   const weatherSearch = async (data) => {
     try {
       let apiURL =
-        "http://api.openweathermap.org/data/2.5/weather?q=" +
+        "https://api.openweathermap.org/data/2.5/weather?q=" +
         data.City +
         ",," +
         (data.Country || "") +

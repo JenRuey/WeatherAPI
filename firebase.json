@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "myweatherapi-973d6",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
